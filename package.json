@@ -1,0 +1,29 @@
+{
+  "name": "PruebaHeroku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "start": "node src",
+    "dev": "nodemon src",
+    "url": "git+https://github.com/ezez8/PruebaHeroku.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezez8/PruebaHeroku/issues"
+  },
+  "homepage": "https://github.com/ezez8/PruebaHeroku#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
